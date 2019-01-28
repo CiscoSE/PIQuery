@@ -1,9 +1,9 @@
-##PIQuery
+## PIQuery
 
-####Description
+#### Description
 This application provides a very simple framework to query Cisco Prime Infrastructure for information.   It can be expanded to provide different types of queries to return different information.
 
-####Example
+#### Example
 The current version of the PIQuery will query for the user client tracking information.   Therefore, it will list all devices attached to parent switches.
 
 ```
@@ -17,7 +17,7 @@ Pghlab-gw            00:e0:1e:ca:3e:b1    Cisco                GigabitEthernet1/
 Pghlab-gw            00:05:73:b9:a2:41    Cisco                GigabitEthernet1/0/14          10.87.109.11         Unknown             
 ```
 
-####Configuraiton
+#### Configuration
 All Configuration is done via the package_config.ini file.   This file currently has three configuration items:
 
 * serveraddress - The IP or DNS name for the Prime Infrastructure server

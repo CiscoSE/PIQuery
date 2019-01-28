@@ -47,6 +47,5 @@ for count in range(total_device_count):
     ipaddress = mydict.get("ipAddress",None)
     if ipaddress <> None :
         ipaddress = ipaddress.get("address")
-
     # Print the resulting data to the screen
     print '{0:20} {1:20} {2:20} {3:30} {4:20} {5:20}'.format(devicename, macAddress, vendor, clientint,ipaddress, devicetype)
