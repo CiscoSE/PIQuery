@@ -3,6 +3,9 @@
 #### Description
 This application provides a very simple framework to query Cisco Prime Infrastructure for information.   It can be expanded to provide different types of queries to return different information.
 
+#### Requirements
+This module is currently written in Python 2.x.
+
 #### Example
 The current version of the PIQuery will query for the user client tracking information.   Therefore, it will list all devices attached to parent switches.
 
